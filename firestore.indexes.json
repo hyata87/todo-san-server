@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "todos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "checked",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "updatedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
